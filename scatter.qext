@@ -1,0 +1,15 @@
+{
+	"name": "logo scatter plot",
+	"description": "Scatter Plot Chat with logo",
+	"icon": "scatter-chart",
+	"type": "visualization",
+	"version": "1.0.0",
+	"author": "Speros Kokenes,Paulo Soares,Wuzhong,",
+	"homepage": "",
+	"keywords": "qlik-sense, visualization",
+	"license": "",
+	"repository": "",
+	"dependencies": {
+		"qlik-sense": ">=3.0.x"
+	}
+}

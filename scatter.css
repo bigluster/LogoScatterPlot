@@ -1,0 +1,37 @@
+rect {
+  fill: transparent;
+  shape-rendering: crispEdges;
+}
+
+.highlight {
+  stroke-width: 2.5 !important;
+  stroke: red !important;
+  border: solid 2.5px red !important;
+  /*fill: #4682B4 !important;*/
+  opacity: 1 !important;
+  transition: stroke 250ms;
+  transition: stroke-width 250ms;
+  transition: border 250ms;
+  transition: opacity 250ms;
+}
+
+.dim {
+  opacity: 0.4;
+  transition: opacity 250ms;
+}
+
+.scatter {
+  font: 12px sans-serif;
+}
+
+.scatter .axis path,
+.scatter .axis line {
+  fill: none;
+  stroke: rgba(0, 0, 0, 0.1);
+  shape-rendering: crispEdges;
+}
+
+.dot {
+  fill-opacity: .8;
+}
+
